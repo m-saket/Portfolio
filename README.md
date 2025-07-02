@@ -1,3 +1,3 @@
 # Portfolio
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/m-saket/Portfolio)
+View my personal portfolio: https://saket-mehla.netlify.app/
