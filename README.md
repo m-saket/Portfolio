@@ -1,3 +1,3 @@
 # Portfolio
 
-View my personal portfolio: https://saket-mehla.netlify.app/
+View my personal portfolio: https://saket-mehla.vercel.app/
