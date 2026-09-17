@@ -1,6 +1,6 @@
 import React from 'react';
 import { TrendingUp, Users, Target, Lightbulb, Briefcase, BarChart, Zap, Brain, Rocket, Globe } from 'lucide-react';
-import profileImage from '/home/project/src/assets/WhatsApp_Image_2025-06-30_at_00.18.38_6b4fab35-removebg-preview copy copy.png';
+import profileImage from '../assets/WhatsApp_Image_2025-06-30_at_00.18.38_6b4fab35-removebg-preview copy copy.png';
 
 const About = () => {
   const highlights = [
