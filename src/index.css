@@ -9,3 +9,14 @@
 
 /* Company artwork is supplied by Saket and displayed without distortion. */
 .company-logo{width:72px;height:72px;object-fit:contain;flex-shrink:0;border-radius:5px}.project-subtitle{align-items:flex-start}.project-subtitle>span{padding-top:1px;flex-shrink:0}.experience-card ul{line-height:1.8}.experience-card li{padding-block:5px}.project-body>p:not(.project-subtitle){min-height:84px}.navigation{gap:25px}.education-note{line-height:1.7}.art-label{font-size:10px}.app-logo small,.app-row,.app-row>span{font-size:8px}.art-footnote{font-size:9px}.portrait-caption{font-size:10px}.art-note{font-size:10px}.retail-visual small{font-size:9px}@media(max-width:760px){.company-logo{width:64px;height:64px}.project-body>p:not(.project-subtitle){min-height:0}.experience-top .date{text-align:right}.filter-row{gap:6px}.filter{padding:11px 12px}.hero .eyebrow{font-size:11px;line-height:1.8}.hero-description{font-size:16px}.section-heading>p{font-size:16px}.project-body h3{font-size:25px}.project-dialog{padding-inline:22px}.dialog-stat{flex-wrap:wrap}}
+
+/* A gentle lift makes content cards feel responsive without shifting layout. */
+.experience-card,.project-card,.achievement,.education-card,.resume-card,.skill-group{transition:transform 220ms cubic-bezier(.2,.7,.3,1),box-shadow 220ms ease,border-color 220ms ease,background-color 220ms ease}
+@media(hover:hover) and (pointer:fine){
+ .experience-card:hover,.project-card:hover,.achievement:hover,.education-card:hover,.resume-card:hover{box-shadow:0 16px 34px -14px rgba(23,44,53,.23);border-color:#91b5a8}
+ .skill-group:hover{box-shadow:0 16px 26px -18px rgba(0,0,0,.55);border-color:#9ac4b4}
+}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ .experience-card:hover,.project-card:hover,.achievement:hover,.education-card:hover,.resume-card:hover,.skill-group:hover{transform:translateY(-6px)}
+}
+.experience-card:focus-within,.project-card:focus-within,.resume-card:focus-visible{box-shadow:0 16px 34px -14px rgba(23,44,53,.23);border-color:#91b5a8}
