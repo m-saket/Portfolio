@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://saket-mehla.vercel.app/sitemap.xml
